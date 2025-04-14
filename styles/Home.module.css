@@ -16,3 +16,19 @@
   list-style: none;
   padding: 0;
 }
+
+.navLink {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  color: #0070f3;
+  text-decoration: none;
+  border: 1px solid #0070f3;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.navLink:hover {
+  background-color: #0070f3;
+  color: white;
+}

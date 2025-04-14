@@ -24,6 +24,9 @@ export default function RegisterPage() {
   return (
     <div className={styles.container}>
       <h1>施設情報 登録</h1>
+      <nav>
+        <a href="/" className={styles.navLink}>検索ページに戻る</a>
+      </nav>
       <textarea
         placeholder="ここに施設のマークダウンや説明文を入力"
         value={text}

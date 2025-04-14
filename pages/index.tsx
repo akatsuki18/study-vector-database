@@ -33,6 +33,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1>メモ検索アプリ</h1>
+      <nav>
+        <a href="/register" className={styles.navLink}>施設情報を登録する</a>
+      </nav>
       <input
         type="text"
         placeholder="例: 猫に関するメモ"
